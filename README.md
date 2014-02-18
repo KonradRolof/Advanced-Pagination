@@ -99,55 +99,56 @@ Options
             <td>You can add links to the previous page. The script responds to the specified class or ID. (String)</td>
           </tr>
           <tr>
-          	<td>nextLink</td>
-            <td>'.nextPage'</td>
-            <td>Similar to prevLink, only it goes to the next page here. (String)</td>
-          </tr>
-          <tr>
-          	<td>onPrev</td>
-            <td>&nbsp;</td>
-            <td>You can overwrite the change to the previous page with your own function. (Function)</td>
-          </tr>
-          <tr>
-          	<td>onNext</td>
-            <td>&nbsp;</td>
-            <td>Overrides the switch to the next page with a custom function. (Function)</td>
-          </tr>
-					<tr>
-						<td>onSwitch</td>
-						<td>&nbsp;</td>
-						<td>A separate function that is executed between page flipping. (Function)</td>
-					</tr>
-          <tr>
-          	<td>afterSwitch</td>
-            <td>&nbsp;</td>
-            <td>A Custom function that is run after the page switch. (Function)</td>
-          </tr>
-        </tbody>
-      </table>
+        <td>nextLink</td>
+        <td>'.nextPage'</td>
+       <td>Similar to prevLink, only it goes to the next page here. (String)</td>
+</tr>
+<tr>
+        <td>onPrev</td>
+        <td>&nbsp;</td>
+        <td>You can overwrite the change to the previous page with your own function. (Function)</td>
+</tr>
+<tr>
+        <td>onNext</td>
+        <td>&nbsp;</td>
+	<td>Overrides the switch to the next page with a custom function. (Function)</td>
+</tr>
+<tr>
+	<td>onSwitch</td>
+	<td>&nbsp;</td>
+	<td>A separate function that is executed between page flipping. (Function)</td>
+</tr>
+<tr>
+     <td>afterSwitch</td>
+     <td>&nbsp;</td>
+     <td>A Custom function that is run after the page switch. (Function)</td>
+</tr>
+</tbody>
+</table>
       
-      <hr>
+change log
+==========
+
+<table class="Table">
+<thead>
+<tr>
+     <th scope="col">Version</th>
+     <th scope="col">Änderung</th>
+     <th scope="col">Erklärung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<th scope="row">Version 1.0</th>
+	<td>Finale Version</td>
+	<td>Es liegt ein funktionierendes Plugin vor.</td>
+</tr>
+</tbody>
+</table>
+
       
-      <a id="changelog"></a><h2>Änderungen (changelog)</h2>
-      <table class="Table">
-      	<thead>
-        	<tr>
-          	<th scope="col">Version</th>
-            <th scope="col">Änderung</th>
-            <th scope="col">Erklärung</th>
-          </tr>
-        </thead>
-        <tbody>
-					<tr>
-						<th scope="row">Version 1.0</th>
-						<td>Finale Version</td>
-						<td>Es liegt ein funktionierendes Plugin vor.</td>
-					</tr>
-        </tbody>
-      </table>
-      
-      <hr>
-      
-      <a id="licence"></a><h2>Lizenz (licence)</h2>
-      <p>The plugin Advanced Pagination is under <a href="http://opensource.org/licenses/MIT" title="Opensource.org" target="_blank">MIT licence</a> and <a href="http://www.gnu.org/licenses/gpl.txt" target="_blank" title="GNU GENERAL PUBLIC LICENSE Version 3">GNU licence</a>.</p>
-      <p>Copyright &#169; 2014 Konrad Rolof</p>
+Licence
+=======
+
+<p>The plugin Advanced Pagination is under <a href="http://opensource.org/licenses/MIT" title="Opensource.org" target="_blank">MIT licence</a> and <a href="http://www.gnu.org/licenses/gpl.txt" target="_blank" title="GNU GENERAL PUBLIC LICENSE Version 3">GNU licence</a>.</p>
+<p>Copyright &#169; 2014 Konrad Rolof</p>
