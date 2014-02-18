@@ -1,0 +1,41 @@
+html, body {
+	min-height: 100.2%;
+	height: auto;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background: black;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+
+#content {
+	min-height: 500px;
+}
+		
+	#paginaNav {
+		padding: 10px 0;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+		#paginaNav a { margin-right: 10px; }
+		#paginaNav a.current { color: DodgerBlue }
+		#paginaNav a:hover,
+		#paginaNav a:active { color: LimeGreen; }
+
+footer {
+	font-size: .8em;
+	text-align: right;
+	border-top: 1px solid black;
+}
